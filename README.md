@@ -2,7 +2,7 @@
 ### Introduction
 FaizanBlockchain is designed to explore network of a blockchain wallet by recursively crawling through transaction history. The data is rendered as a graph to reveal major sources, sinks and suspicious connections.
 
-> **Note:** Orbit only runs on Python 3.2 and above.
+> **Note:** FaizanBlockchain only runs on Python 3.2 and above.
 
 ### Usage
 
@@ -12,7 +12,7 @@ python3 FaizanInvestigation.py -s 1AJbsFZ64EpEfS5UAjAfcUG8pH8Jn3rn1F
 ```
 Crawling multiple wallets is no different.
 ```
-python3 FaizanInvestigation.pyy -s 1AJbsFZ64EpEfS5UAjAfcUG8pH8Jn3rn1F,1ETBbsHPvbydW7hGWXXKXZ3pxVh3VFoMaX
+python3 FaizanInvestigation.py -s 1AJbsFZ64EpEfS5UAjAfcUG8pH8Jn3rn1F,1ETBbsHPvbydW7hGWXXKXZ3pxVh3VFoMaX
 ```
 FaizanBlockchain fetches last 50 transactions from each wallet by default, but it can be tuned with `-l` option.
 ```
@@ -34,12 +34,6 @@ Support Formats
 
 - `graphml` (Supported by most graph viewers)
 - `json` (For raw processing)
-
-
-This is your terminal dashboard.
-
-![demo-terminal](https://i.ibb.co/pZG24vT/Screenshot-2019-07-26-08-07-10.png)
-
 
 ### Visualization
 Once the scan is complete, the graph will automatically open in your default browser. If it doesn't open, open `quark.html` manually.
