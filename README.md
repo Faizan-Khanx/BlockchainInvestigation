@@ -47,4 +47,4 @@ Select the **Make Clusters** option to form clusters using community detection a
 
 The thickness of edges depends on the frequency of transactions between two wallets while the size of a node depends on both transaction frequency and the number of connections of the node.
 
-As Orbit uses ![Quark](https://github.com/s0md3v/Quark) to render the graph, more information about the various features and controls is available in Quark's README.
+As Orbit uses ![Quark](https://github.com/Faizan-Khanx/Quark-Framework) to render the graph, more information about the various features and controls is available in Quark's README.
