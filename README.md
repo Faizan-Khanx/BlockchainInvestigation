@@ -1,6 +1,6 @@
 
 ### Introduction
-FaizanBlockchain is designed to explore network of a blockchain wallet by recursively crawling through transaction history. The data is rendered as a graph to reveal major sources, sinks and suspicious connections.
+FaizanBlockchain is inspired by [Orbit]([https://link-url-here.org](https://github.com/s0md3v/Orbit)), developed by Somdev Sangwan, and designed to explore network of a blockchain wallet by recursively crawling through transaction history. The data is rendered as a graph to reveal major sources, sinks and suspicious connections.
 
 > **Note:** FaizanBlockchain only runs on Python 3.2 and above.
 
